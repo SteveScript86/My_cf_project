@@ -1,0 +1,245 @@
+/*************INDEX PAGE****************/
+
+.jumbotron {
+	background-image: url(../img/landscape.jpg);
+	background-size: cover;
+}
+
+
+
+/*Typography*/
+
+.jumbotron {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+}
+
+.row {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+}
+
+/*Backrounds and Colors*/
+
+.jumbotron {
+	color: #fff;
+}
+
+.jumbotron a {
+	color: #FFFFFF
+}
+
+body {
+	background-color: #fffeea;
+}
+
+
+/**********************END INDEX PAGE********************/
+
+
+/************CONTACT PAGE***************/
+
+.nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 20px 10px 20px;
+}
+
+.nav a:hover {
+	color: #ff0;
+
+}
+
+.nav ul li {
+	display: inline-block;
+	float:right;
+}
+
+.nav p a {
+	margin-left: 80px;
+	position: fixed;
+}
+
+.section {
+	width: 50%;
+	margin-top: 25px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+.intro p { 
+	text-align: center;
+	margin-bottom:10%;
+	margin-top: 150px;
+}
+
+ .email p {
+	text-align: center;
+	padding-top: 50px;
+	margin-top: 75px;
+	padding-bottom: 50px;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.email p:hover {
+	color: #ff0;
+}
+
+.main-text p {
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 70px
+}
+
+.contact p:hover {
+	color:#ff0;
+}
+
+
+.contact {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;}
+
+.summary p {
+	text-align: center;
+	margin-top: 30px;
+	margin-tleft: 20%;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+/*Typography*/
+
+h1  {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+}
+
+.intro {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+}
+
+.email  {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.main-text {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+	text-size: 2em;
+}
+
+.contact {
+	font-family: "Open Sans", Futura, Helvetica, Araial, sans-seriff;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.summary {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+}
+
+/*Backrounds and Colors*/
+
+.nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding-right: 38px;
+	font-size: 1.5em;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.nav p a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	font-size: 1.5em;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.email p {
+	background-color: #5ad4c2;
+	color: #fff;
+}
+
+.contact {
+	background-color: #5AD4C2;
+	color: #fff;
+}
+
+.summary p {
+	color: #fff;
+}
+
+
+/**********************END CONTACT PAGE******************/
+
+/************ABOUT PAGE****************/
+
+/**********************END ABOUT PAGE********************/
+
+/************FAQ PAGE******************/
+/*Backgrounds and Colors*/
+
+.container {
+	margin-top: 250px;
+}
+
+#headingOne {
+	background-color: #000;
+	color: #FFF;
+}
+
+#headingTwo {
+	background-color: #000;
+	color: #FFF;
+}
+
+#headingThree {
+	background-color: #000;
+	color: #FFF;
+}
+
+.panel-heading h4 {
+	color: #FFF;
+}
+
+.panel-body {
+	background-color: #5ad4c2;
+	color: #FFF;
+}
+
+/*Fonts and Typography*/
+
+
+.panel-heading h4 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+}
+
+.panel-body {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+}
+
+/**********************END FAQ PAGE**********************/
