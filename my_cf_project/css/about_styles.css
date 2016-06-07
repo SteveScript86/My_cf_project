@@ -1,27 +1,4 @@
-* { box-sizing: border-box; }
 
-.nav {
-	background-color: black;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	padding: 20px 10px 20px;
-}
-
-.nav a:hover {
-	color: #ff0;
-
-}
-
-.nav ul li {
-	display: inline-block;
-	float:right;
-}
-
-.nav p a {
-	margin-left: 80px;
-	position: fixed;
-}
 
 body {
 	padding-top: 86px;
