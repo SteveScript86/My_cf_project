@@ -1,17 +1,61 @@
 /*************INDEX PAGE****************/
+/*************INDEX PAGE****************/
+/*NAVIGATION BAR*/
 .nav {
 	z-index: 1;
 }
 
+#navbar ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding-right: 2.1em;
+	font-size: 1.5em;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+#navbar p a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	font-size: 1.5em;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+#navbar {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	/*padding: 20px 10px 20px;*/
+	padding: 1.3em 1.1em 1.3em;
+}
+
+#navbar a:hover {
+	color: #ff0;
+}
+
+#navbar ul li {
+	display: inline-block;
+	float: right;
+}
+
+#navbar p a {
+	margin-left: 80px;
+	float: left;
+	display: inline-block;
+}
+/*END NAVIGATION BAR*/
+
+/*CAROUSEL*/
 .container-fluid {
 	margin-left: -15px;
 	margin-right: -15px;
 }
-/*
-.carousel {
-	margin-left: -15px;
-	margin-right: -15px;
-}*/
 
 #carousel-example-generic {
 	padding-top: 81px;
@@ -27,55 +71,124 @@
 .carousel-caption p {
 	font-size: 1.5em;
 	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
-}
-
-.row {
-	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
-}
-
-/*Backrounds and Colors*/
-
-.carousel-caption p {
 	color: #5ad4c2;
 }
 
 .carousel-caption h3 {
 	color: #5ad4c2;
 }
+/*END CAROUSEL*/
+/*Backgrounds and Fonts*/
 
 body {
 	background-color: #fffeea;
 }
 
-
-/**********************END INDEX PAGE********************/
-
-
-/************CONTACT PAGE***************/
-
-.nav {
-	background-color: black;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	padding: 20px 10px 20px;
+.row {
+	font-family: "Open Sans", Futura, Helvetica, Arial, sans-serif;
 }
 
-.nav a:hover {
-	color: #ff0;
-
+/**********************END INDEX SECTION********************/
+/**********************END INDEX SECTION********************/
+/*************ABOUT SECTION****************/
+/*************ABOUT SECTION****************/
+#learn {
+	width: 80%;
+	margin: 0 auto;
 }
 
-.nav ul li {
-	display: inline-block;
-	float: right;
+.header h1 {
+	text-align: center;
+	margin-bottom: 3em;
 }
-
-.nav p a {
-	margin-left: 80px;
+/*THREE COLUMNS*/
+.image {
 	float: left;
-	display: inline-block;
 }
+
+img {
+	width: 100%;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 1.4px;
+}
+
+.skills-column {
+	margin-bottom: 50px;
+}
+
+#skills-list {
+	margin-left: 50px;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.skills-column {
+	color: #fff;
+	background-color: #5ad4c2; 
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+/*END THREE COLUMNS*/
+/*ABOUT BOX BELOW COLUMNS*/
+.about-text {
+	color: #FFFFFF;
+	background-color: #5ad4c2;
+}
+
+.about-text {
+	clear: both;
+	padding: 20px;
+}
+
+.about-text h3 {
+	text-align: center;
+}
+
+.about-text {
+	clear: both;
+	padding: 1.4em;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p,
+li,
+a {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+/*NOT SURE IF I NEED THIS YET
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.intro {
+	color: #FFF;
+}
+**/
+
+/**********************END ABOUT SECTION********************/
+/**********************END ABOUT SECTION********************/
+/*************WORK SECTION****************/
+/*************WORK SECTION****************/
+
+/**********************END WORK SECTION********************/
+/**********************END WORK SECTION********************/
+/*************CONTACT SECTION****************/
+/*************CONTACT SECTION****************/
 
 .section {
 	width: 50%;
@@ -173,26 +286,7 @@ h1  {
 
 /*Backrounds and Colors*/
 
-.nav ul li a {
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
-	padding-right: 38px;
-	font-size: 1.5em;
-	text-decoration: none;
-	transition: color 600ms;
-	-webkit-transition: color 600ms;
-}
 
-.nav p a {
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
-	font-size: 1.5em;
-	text-decoration: none;
-	transition: color 600ms;
-	-webkit-transition: color 600ms;
-}
 
 .email p {
 	background-color: #5ad4c2;
@@ -211,30 +305,8 @@ h1  {
 	margin-bottom: 3em;
 }
 
-/**********************END CONTACT PAGE******************/
-
-/************ABOUT PAGE****************/
-.intro p {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-	font-size: 3em;
-	font-weight: 100;
-	-webkit-margin-before: 0;
-}
-
-.skills h3 {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.main-text {
-	clear: both;
-	padding: 20px;
-}
-
-.main-text h3 {
-	text-align: center;
-}
-/**********************END ABOUT PAGE********************/
+/**********************END CONTACT SECTION********************/
+/**********************END CONTACT SECTION********************/
 
 /************FAQ PAGE******************/
 /*Backgrounds and Colors*/
